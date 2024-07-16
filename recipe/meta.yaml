@@ -1,5 +1,5 @@
 {% set name = "czekitout" %}
-{% set version = "0.0.3" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/czekitout-{{ version }}.tar.gz
-  sha256: e487a5b7b23a55f6762ace6681cdd214bbd820cbf45724816ad942bdf23fd8f5
+  sha256: 6646539124ddf93a26ebb420f00ee761712c24b41aafe2f15123ac2d1981b934
 
 build:
   noarch: python
