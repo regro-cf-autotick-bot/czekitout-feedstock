@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   home: https://pypi.org/project/czekitout/
   summary: Contains a collection of functions that facilitate validation, and type-conversions, with useful error messages when exceptions are thrown.
   dev_url: https://github.com/mrfitzpa/czekitout
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_file: LICENSE
 
 extra:
