@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/czekitout-feeds
 
 Home: https://pypi.org/project/czekitout/
 
-Package license: GPL-3.0
+Package license: GPL-3.0-only
 
 Summary: Contains a collection of functions that facilitate validation, and type-conversions, with useful error messages when exceptions are thrown.
 
